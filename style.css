@@ -51,18 +51,18 @@ form span {
 	background-color: #F7F7F7;
 	width: 50%;
 	padding: 5px 5px 8px 8px;
+	margin-left: 3px;
 }
 
 #billAmt:focus {
-	background-color: #fff;
 	outline: none;
-	border: 3px solid #F7F7F7;
 }
 
 #serviceQuality {
 	padding: 13px 13px 20px 20px;
 	margin-left: 25px;
 	font-size: 25px;
+	border-radius: 10px;
 }
 
 #peopleAmt {
@@ -87,12 +87,19 @@ button {
 	width: 150px;
 	height: 35px;
 	font-size: 16px;
-	background-color: #AD133A;
+	background-color: #1F030C;
+	cursor: pointer;
 	color: white;
+	outline: none;
 }
 
 button:hover {
 	background-color: #4C2827;
+}
+
+button:active {
+	outline: none;
+	font-style: italic;
 }
 
 
