@@ -27,7 +27,7 @@ const calculateTip = ()=> {
 	}
 }
 
-//totalTip.style.display = "none";
+totalTip.style.display = "none";
 
 calculate.addEventListener("click", calculateTip);
 
